@@ -8146,6 +8146,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-cli-plugin-chakra-ui@~0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-chakra-ui/-/vue-cli-plugin-chakra-ui-0.2.9.tgz#01d4d63d059ae63d7b5964f4dfcf8458f9278336"
+  integrity sha512-ETyUfz/DW2x2FPU+EVVaQt5v99N/trr9wNc2tnjUtyW2syUDt/KOwNc0VaAC2pLpxH8c6BLncOj8D5KBvtfHfA==
+
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"
