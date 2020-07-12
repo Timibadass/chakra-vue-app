@@ -1,0 +1,17 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@chakra-ui/nuxt": "^0.0.7",
+    "@nuxtjs/emotion": "^0.0.1",
+    "nuxt": "^2.13.0"
+  },
+  "devDependencies": {}
+}
