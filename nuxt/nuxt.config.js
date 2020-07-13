@@ -1,3 +1,4 @@
+import { faMedal } from '@fortawesome/free-solid-svg-icons'
 export default {
     /*
      ** Nuxt rendering mode
@@ -39,6 +40,12 @@ export default {
         '@chakra-ui/nuxt',
         '@nuxtjs/emotion'
     ],
+    chakra: {
+        icons: {
+            iconPack: 'fa',
+            iconSet: { faMedal }
+        }
+    },
     /*
      ** Build configuration
      ** See https://nuxtjs.org/api/configuration-build/

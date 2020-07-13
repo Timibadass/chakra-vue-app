@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@chakra-ui/nuxt": "^0.0.7",
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@nuxtjs/emotion": "^0.0.1",
     "nuxt": "^2.13.0"
   },

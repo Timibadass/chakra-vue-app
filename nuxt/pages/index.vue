@@ -1,58 +1,22 @@
+
 <template>
-  <div class="container">
-    <CButton as="nuxt-link" to="/my-other-page">
-      ⚡️ Oh, my Nuxt!
-    </CButton>
-  </div>
+    <c-box>
+        <c-button>
+            Chakra Consumed! ⚡️
+            <!-- add the name of the icon to the component -->
+            <c-icon name='medal'></c-icon>
+        </c-button>
+    </c-box>
 </template>
-
-<script>
-import { CButton } from '@chakra-ui/vue'
-
-export default {
-  components: {
-    CButton
-  }
-}
+<script lang="js">
+// import the chakra icon component CIcon
+    import { CBox, CButton, CIcon } from '@chakra-ui/vue'
+    export default {
+        name: 'App',
+        components: {
+            CBox,
+            CButton,
+            CIcon
+        }
+    }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

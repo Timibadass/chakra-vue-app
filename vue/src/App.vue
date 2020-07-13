@@ -1,19 +1,22 @@
 <template>
-  <c-theme-provider>
-    <c-reset />
-    <h1>Hi</h1>
-    <!--Your application goes here -->
-  </c-theme-provider>
+	<c-box>
+		<c-button>
+			Chakra Consumed! ⚡️
+            <!-- add the name of the icon to the component -->
+			<c-icon name='medal'></c-icon>
+		</c-button>
+	</c-box>
 </template>
 
-<script>
-import { CThemeProvider, CReset } from "@chakra-ui/vue";
-
-export default {
-  name: "App",
-  components: {
-    CThemeProvider,
-    CReset
-  }
-};
+<script lang="js">
+// import the chakra icon component CIcon
+	import { CBox, CButton, CIcon } from '@chakra-ui/vue'
+	export default {
+        name: 'App',
+        components: {
+            CBox,
+            CButton,
+            CIcon
+        }
+	}
 </script>
