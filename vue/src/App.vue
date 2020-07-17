@@ -1,6 +1,7 @@
 <template>
 	<c-box>
-		<c-button>
+        <!-- using the newly added config for gray -->
+		<c-button bg='gray.80'>
 			Chakra Consumed! ⚡️
             <!-- add the name of the icon to the component -->
 			<c-icon name='medal'></c-icon>
